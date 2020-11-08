@@ -4,12 +4,12 @@ import { QuizQuestions } from './questions.js';
 export function askQuestion() {
     var randomQuizItem = Math.floor(Math.random()*QuizQuestions.length);
     var randomQuestion = randomQuizItem.question;
-    return randomQuestion;
+    question = randomQuestion;
 }
 
 export function answerQuestion(question, answer) {
     if(question == QuizQuestions[0].question){
-        if(answer == 'b'){
+        if(answer == correctAnswer){
             answer = true;
         }
         else { 
@@ -17,7 +17,7 @@ export function answerQuestion(question, answer) {
         }
     }
     else if (question == QuizQuestions[1].question){
-        if(answer == 'c'){
+        if(answer == correctAnswer){
             answer = true;
         }
         else { 
@@ -25,7 +25,7 @@ export function answerQuestion(question, answer) {
         }
     }
     else if (question == QuizQuestions[2].question){
-        if(answer == 'a'){
+        if(answer == correctAnswer){
             answer = true;
         }
         else { 

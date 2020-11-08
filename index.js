@@ -1,5 +1,4 @@
 // index.js
-import { QuizQuestions } from './questions.js';
 import { askQuestion, answerQuestion } from './quiz.js'
 
 const question = askQuestion()
