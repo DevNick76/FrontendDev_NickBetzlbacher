@@ -4,7 +4,7 @@ import { QuizQuestions } from './questions.js';
 export function askQuestion() {
     var randomQuizItem = Math.floor(Math.random()*QuizQuestions.length);
     var randomQuestion = randomQuizItem.question;
-    return randomQuestion;
+    question = randomQuestion;
 }
 
 export function answerQuestion(question, answer) {
