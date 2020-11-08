@@ -6,11 +6,12 @@ console.log(question)
 
 /**
  * {
- *   question: 'Whats the best university?',
- *   a: 'Hagenberg',
- *   b: 'FHS',
- *   c: 'TU',
- *   d: 'JKU'
+ *  question: "Wie lautet der zweite Planet in unserem Sonnensystem?",
+ *  correctAnswer: "b",
+ *  a: "Jupiter",
+ *  b: "Venus",
+ *  c: "Erde",
+ *  d: "Mars"
  * }
  */
 
