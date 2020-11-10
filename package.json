@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "http-server ."
   },
-  "author": "",
+  "author": "Nick Betzlbacher",
   "license": "ISC",
   "dependencies": {
     "http-server": "^0.12.3"
