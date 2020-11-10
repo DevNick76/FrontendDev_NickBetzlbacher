@@ -6,3 +6,5 @@ console.log(question)
 
 const answer = answerQuestion(question, 'b')
 console.log(answer ? 'correct' : 'incorrect')
+
+console.log("TEST")
