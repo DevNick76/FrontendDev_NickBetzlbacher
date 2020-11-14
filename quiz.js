@@ -9,15 +9,16 @@ export function askQuestion() {
     var answerB = QuizQuestions[randomQuizItem].b;
     var answerC = QuizQuestions[randomQuizItem].c;
     var answerD = QuizQuestions[randomQuizItem].d;
-    
+
     return 'Frage: ' + randomQuestion + '\nA: ' + answerA + '\nB: ' + answerB + '\nC: ' + answerC + '\nD: ' + answerD;
 }
 
 export function answerQuestion(answer) {
-        if(answer == QuizQuestions[randomQuizItem].correctAnswer){
-            answer = true;
-        }
-        else { 
-            answer = false;
-        }
+    if(answer == QuizQuestions[randomQuizItem].correctAnswer){
+        answer = true;
+    }
+    else {
+        answer = false;
+    }
+    return answer
 }
